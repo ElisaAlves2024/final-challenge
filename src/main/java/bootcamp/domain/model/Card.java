@@ -1,4 +1,4 @@
-package bootcamp.dio.java.final_challenge;
+package bootcamp.domain.model;
 
 import java.math.BigDecimal;
 
@@ -16,7 +16,7 @@ public class Card {
     private Long id;
 
     @Column(unique = true)
-    private String numberCard;
+    private String cardNumber;
 
     @Column(name = "extra_limit", precision = 13, scale = 2)
     private BigDecimal limitCard;
@@ -24,8 +24,8 @@ public class Card {
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
-    public String getNumberCard() { return numberCard; }
-    public void setNumberCard(String numberCard) { this.numberCard = numberCard; }
+    public String getCardNumber() { return cardNumber; }
+    public void setCardNumber(String cardNumber) { this.cardNumber = cardNumber; }
 
     public BigDecimal getLimitCard() { return limitCard; }
     public void setLimitCard(BigDecimal limitCard) { this.limitCard = limitCard; }

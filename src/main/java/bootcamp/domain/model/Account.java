@@ -1,4 +1,4 @@
-package bootcamp.dio.java.final_challenge;
+package bootcamp.domain.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -15,7 +15,7 @@ public class Account {
     private Long id;
 
     @Column(unique = true)
-    private String numberAccount;
+    private String number;
     private String agency;
 
     @Column(precision = 13, scale = 2)
@@ -27,8 +27,8 @@ public class Account {
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
-    public String getNumberAccount() { return numberAccount; }
-    public void setNumberAccount(String numberAccount) { this.numberAccount = numberAccount; }
+    public String getNumber() { return number; }
+    public void setNumber(String number) { this.number = number; }
 
     public String getAgency() { return agency; }
     public void setAgency(String agency) { this.agency = agency; }

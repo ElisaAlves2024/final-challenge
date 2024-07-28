@@ -1,4 +1,4 @@
-package bootcamp.dio.java.final_challenge;
+package bootcamp.domain.model;
 
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
