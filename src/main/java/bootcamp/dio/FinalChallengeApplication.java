@@ -1,4 +1,4 @@
-package bootcamp.dio.java.final_challenge;
+package bootcamp.dio;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
